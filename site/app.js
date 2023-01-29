@@ -39,12 +39,20 @@ let donnytext = document.getElementById("donnytext")
 let changedonny = true
 
 
-donny.addEventListener("click", function() {
-    
-    donnytext.style.opacity = "1"
-    song1.play();
-})
 
+donny.addEventListener("click", function() {
+    if(changedonny == true){
+    donnytext.style.animation = "slide 2s"
+    donnytext.style.animationFillMode = "forwards"
+    changedonny = false
+    song1.play()
+    }
+    else {
+        donnytext.style.animation = "slide-back 2s"
+        changedonny = true
+    }
+})
+    
 
 
 let redditdonny = document.getElementById("reddit");

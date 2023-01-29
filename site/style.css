@@ -7,6 +7,7 @@
 body {
   background-color: rgb(223, 156, 89);
     font-family: "Bebas Neue";
+    overflow: hidden;
 }
 
 
@@ -215,13 +216,34 @@ margin-bottom: 7rem;
     color:white;
     width:60rem;
     position: absolute;
-    left:50rem;
+    left:120rem;
     top:4rem;
     transition: 500ms ease;
-    opacity: 0;
+    opacity: 1;
     font-size: 1.5em;
-    height:8rem
+    height:8rem;
+    
+    animation-fill-mode: forwards;
 }
+
+@keyframes slide {
+    0%{
+        left:120rem;
+    }
+    100%{
+       left: 50rem 
+    }
+}
+
+@keyframes slide-back {
+    0%{
+        left:50rem;
+    }
+    100%{
+       left: 120rem 
+    }
+}
+
 
 
 .donnytext:hover {
