@@ -37,6 +37,11 @@ let donny = document.getElementById("donny");
 
 let donnytext = document.getElementById("donnytext")
 let changedonny = true
+let canon = document.getElementById("canon");
+
+let canontext = document.getElementById("canontext")
+let changecanon = true
+
 
 
 
@@ -52,11 +57,29 @@ donny.addEventListener("click", function() {
         changedonny = true
     }
 })
+
+canon.addEventListener("click", function() {
+    if(changecanon == true){
+    canontext.style.animation = "slide 2s"
+    canontext.style.animationFillMode = "forwards"
+    changecanon = false
+   
+    }
+    else {
+        canontext.style.animation = "slide-back 2s"
+        changecanon = true
+    }
+})
+  
     
 
 
-let redditdonny = document.getElementById("reddit");
-let twitterdonny = document.getElementById("twitter");
+let redditdonny = document.getElementById("redditdonny");
+let twitterdonny = document.getElementById("twitterdonny");
+
+let redditcanon = document.getElementById("redditcanon");
+let twittercanon = document.getElementById("twittercanon");
+
 
 
 
@@ -64,6 +87,15 @@ redditdonny.addEventListener("click", function() {
 window.location.href = "https://www.reddit.com/user/Powerful-Chapter629"
 })
 
+
+redditcanon.addEventListener("click", function() {
+    window.location.href = "https://www.reddit.com/user/stonesdev"
+    })
+
 twitterdonny.addEventListener("click", function() {
     window.location.href = "https://twitter.com/Donny60600128"
     })
+
+    twittercanon.addEventListener("click", function() {
+        window.location.href = "https://twitter.com/NoonCanoon"
+        })

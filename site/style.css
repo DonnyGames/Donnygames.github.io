@@ -226,6 +226,24 @@ margin-bottom: 7rem;
     animation-fill-mode: forwards;
 }
 
+.canontext{
+    padding:5px;
+    background-color: rgb(247, 156, 45) ;
+    border: 5px solid rgb(253, 174, 77);
+    border-radius: 10px;
+    color:white;
+    width:60rem;
+    position: absolute;
+    left:120rem;
+    top:14rem;
+    transition: 500ms ease;
+    opacity: 1;
+    font-size: 1.5em;
+    height:8rem;
+    
+    animation-fill-mode: forwards;
+}
+
 @keyframes slide {
     0%{
         left:120rem;
@@ -251,6 +269,11 @@ margin-bottom: 7rem;
 }
 
 
+.canontext:hover {
+    transform: scale(1.1);
+}
+
+
 
 .reddit {
 
@@ -260,7 +283,7 @@ margin-bottom: 7rem;
     border-radius: 30px;
     position: relative;
     left:30rem;
-    top:-17rem;
+    top:-20rem;
     transition: 500ms ease;
     
 }
@@ -283,7 +306,7 @@ margin-bottom: 7rem;
     width: 27vw;
     border-radius: 30px;
     position: relative;
-    top:-50rem;
+    top:-53rem;
     left:33rem;
     transition: 500ms ease;
     padding: 10px;
