@@ -1,5 +1,4 @@
-window.onload = function() {
-    let song1 = new Audio("./outro songs/cocoa.ogg")
+    let song1 = new Audio("./outro songs/New_Title.ogg")
     let song2 = new Audio("./outro songs/eggnog.ogg")
     let song3 = new Audio("./outro songs/frozen.ogg")
     let song4 = new Audio("./outro songs/final.ogg")
@@ -8,7 +7,7 @@ window.onload = function() {
 
 
 
-    song1.play();
+   
     song1.volume = 0.2
     song2.volume = 0.2
     song3.volume = 0.2
@@ -33,8 +32,6 @@ window.onload = function() {
     song4.addEventListener("ended", function() {
         song1.play()
     })
-}
-
 
 let donny = document.getElementById("donny");
 
@@ -45,7 +42,7 @@ let changedonny = true
 donny.addEventListener("click", function() {
     
     donnytext.style.opacity = "1"
-
+    song1.play();
 })
 
 
