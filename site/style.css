@@ -42,6 +42,7 @@ margin-bottom: 1rem;
 
 .creditimages {
    border: white solid 3px
+
 }
 
 
@@ -179,7 +180,7 @@ margin-bottom: 7rem;
 top:25rem;
 transform: scale(0.6);
 transition: 500ms ease;
-margin-bottom: 7rem;
+
 }
 
 
@@ -188,6 +189,8 @@ margin-bottom: 7rem;
     transform: scale(0.8);
     cursor: pointer;
 }
+
+
 
 
 .blue {
@@ -204,6 +207,25 @@ margin-bottom: 7rem;
 
 .blue:hover {
     transform: scale(0.06);
+    cursor: pointer;
+}
+
+
+.snik {
+    z-index: 5;
+    position: absolute;
+  
+top:37rem;
+left:1rem;
+transform: scale(0.4);
+transition: 500ms ease;
+margin-bottom: 7rem;
+}
+
+
+
+.snik:hover {
+    transform: scale(0.5);
     cursor: pointer;
 }
 

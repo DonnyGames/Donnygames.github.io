@@ -52,10 +52,16 @@ donny.addEventListener("click", function() {
     changedonny = false
     song1.play()
     }
+    else if(changedonny == "yes"){
+        donnytext.style.animation = "slide 2s"
+        donnytext.style.animationFillMode = "forwards"
+        changedonny = false
+    }
     else {
         donnytext.style.animation = "slide-back 2s"
-        changedonny = true
+        changedonny = "yes"
     }
+  
 })
 
 canon.addEventListener("click", function() {
