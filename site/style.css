@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+  background-color: rgb(223, 156, 89);
+    font-family: "Bebas Neue";
+}
+
+
+.creditcontainer {
+    color:white;
+    border: 5px solid rgb(255, 190, 110);
+    width:40rem;
+    border-radius: 10px;
+    padding:10px;
+    margin:10px;
+    background-color: rgb(194, 114, 35);
+    position: absolute;
+    height:90vh;
+    z-index: -3;
+    
+
+}
+
+
+.creditcontainer p {
+    font-size: 2em;
+margin-bottom: 1rem;
+}
+
+
+.creditcontainer h2 {
+    font-size: 5em;
+};
+
+
+
+
+.creditimages {
+   border: white solid 3px
+}
+
+
+.donny {
+    z-index: 5;
+    position: absolute;
+    left:8.5rem;
+top:7rem;
+transform: scale(0.6);
+transition: 500ms ease;
+margin-bottom: 7rem;
+}
+
+
+/* goofy goober */
+.donny:hover {
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
+/* funny man */
+.canon {
+    z-index: 5;
+    position: absolute;
+    left:6rem;
+top:11rem;
+transform: scale(0.6);
+transition: 500ms ease;
+margin-bottom: 7rem;
+}
+
+
+
+.canon:hover {
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
+
+
+
+.nater {
+    z-index: 5;
+    position: absolute;
+    left:10.2rem;
+top:14rem;
+transform: scale(0.6);
+transition: 500ms ease;
+margin-bottom: 7rem;
+}
+
+
+
+.nater:hover {
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
+.kurip {
+    z-index: 5;
+    position: absolute;
+    left:5.1rem;
+top:17rem;
+transform: scale(0.5);
+transition: 500ms ease;
+margin-bottom: 7rem;
+}
+
+
+
+.kurip:hover {
+    transform: scale(0.7);
+    cursor: pointer;
+}
+
+.ali {
+    z-index: 5;
+    position: absolute;
+    left:12.5rem;
+top:22rem;
+transform: scale(0.6);
+transition: 500ms ease;
+margin-bottom: 7rem;
+}
+
+
+
+.ali:hover {
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
+
+.tielun {
+    z-index: 5;
+    position: absolute;
+    left:5rem;
+top:28.5rem;
+transform: scale(0.6);
+transition: 500ms ease;
+margin-bottom: 7rem;
+}
+
+
+
+.tielun:hover {
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
+
+
+.vox {
+    z-index: 5;
+    position: absolute;
+    left:5rem;
+top:32.5rem;
+transform: scale(0.6);
+transition: 500ms ease;
+margin-bottom: 7rem;
+}
+
+
+
+.vox:hover {
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
+
+.inf {
+    z-index: 5;
+    position: absolute;
+    left:7rem;
+top:25rem;
+transform: scale(0.6);
+transition: 500ms ease;
+margin-bottom: 7rem;
+}
+
+
+
+.inf:hover {
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
+
+.blue {
+    z-index: 5;
+    position: absolute;
+    left:-53rem;
+top:-25rem;
+transform: scale(0.04);
+transition: 500ms ease;
+margin-bottom: 7rem;
+}
+
+
+
+.blue:hover {
+    transform: scale(0.06);
+    cursor: pointer;
+}
+
+
+.donnytext {
+    padding:5px;
+    background-color: rgb(247, 156, 45) ;
+    border: 5px solid rgb(253, 174, 77);
+    border-radius: 10px;
+    color:white;
+    width:60rem;
+    position: absolute;
+    left:50rem;
+    top:4rem;
+    transition: 500ms ease;
+    opacity: 0;
+    font-size: 1.5em;
+    height:8rem
+}
+
+
+.donnytext:hover {
+    transform: scale(1.1);
+}
+
+
+
+.reddit {
+
+    transform: scale(0.1);
+    background-color:rgb(253, 174, 77) ;
+    width: 27vw;
+    border-radius: 30px;
+    position: relative;
+    left:30rem;
+    top:-17rem;
+    transition: 500ms ease;
+    
+}
+
+
+.reddit:hover {
+    
+    transform: scale(0.12);
+    cursor: pointer;
+
+
+
+}
+
+
+.twitter {
+
+    transform: scale(0.08);
+    background-color:rgb(253, 174, 77) ;
+    width: 27vw;
+    border-radius: 30px;
+    position: relative;
+    top:-50rem;
+    left:33rem;
+    transition: 500ms ease;
+    padding: 10px;
+    
+}
+
+
+.twitter:hover {
+    
+    transform: scale(0.10);
+    cursor: pointer;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
